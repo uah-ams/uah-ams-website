@@ -1,0 +1,58 @@
+[project]
+    name = UAH AMS NWA Website
+    url_style = absolute
+    url = https://www.uah-ams.club
+    themes = hugo-icon
+
+[packages]
+    lektor-markdown-header-anchors = 0.1
+
+[servers.ghpages]
+    target = ghpages+https://uah-ams/uah-ams-website?cname=www.uah-ams.club
+
+[alternatives.en]
+    name = English
+    primary = yes
+    locale = en_US
+
+[theme_settings]
+    author = "UAH AMS NWA Chapter"
+    description = "UAH AMS NWA Website"
+    other_css = "/static/css/styles.css"
+    content_lang = "en"
+    extension_nav = true
+    spyder_nav_content = true
+    ext_1_ref = "/blog"
+    ext_1_title = "Blog"
+    ext_2_ref =
+    ext_2_title = "Minutes"
+    ext_3_ref =
+    ext_3_title = "UPSTORM"
+    nav_mission = "About"
+    nav_services = "Activities"
+    nav_work = "Meetings"
+    nav_team = "Exec Team"
+    mission_2_nav = "Learn More"
+    donate_nav = "Join Us"
+    hero_img = "/static/images/uah-ams-website-banner.jpg"
+    hero_title = "UAH AMS NWA"
+    hero_description = "Welcome to the UAH Chapter of the American Meteorological Society and the National Weather Association!"
+    mission_enable = true
+    mission_images_enable = true
+    overview_enable = true
+    services_enable = true
+    service_video_url = ""
+    work_enable = true
+    team_enable = true
+    download_enable = true
+    donate_enable = true
+    donate_name = "Join Us"
+    donate_description = "Join the UAH AMS NWA!"
+    footer_enable = true
+    footer_note = "<p>&copy; 2018 UAH AMS NWA <br> <a href="https://freehtml5.co/icon-free-website-template-using-bootstrap/" target="_blank">Template</a> designed by <a href='https://freehtml5.co/' target='_blank'>FreeHTML5.co</a> <br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a> <span class="pipe-red">|</span> Lektor port by <a href='https://github.com/dalthviz/' target='_blank'>Dalthviz</a></p>"
+    footer_github = "https://github.com/uah-ams/"
+    footer_twitter = "https://twitter.com/uah_ams_nwa"
+    footer_facebook = "https://www.facebook.com/American-Meteorological-Society-UAH-Chapter-875343375834391/"
+    footer_google = "https://groups.google.com/forum/?hl=en#!forum/uahuntsvilleams"
+    opencollective =
+    gitter_room =

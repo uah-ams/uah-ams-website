@@ -1,6 +1,138 @@
-title: Welcome to UAH AMS Website!
+_model: single_layout
 ---
-body:
 
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.
+mission:
+---
+
+
+services:
+
+#### services ####
+title: Activities
+----
+
+services:
+
+##### service #####
+title: Outreach
+-----
+description:
+
+We collaborate with local schools and community partners to inform and inspire the next generation through public events, presentations, tutoring and hands-on fun.
+
+-----
+icon: outreach.jpg
+---
+
+
+team:
+
+#### team ####
+title: Leadership Team
+----
+description: The UAH AMS/NWA's executive board
+----
+members:
+
+##### member #####
+name: C.A.M. Gerlach
+-----
+position: Web Developer
+-----
+description: Part-time webmaster.<br>Full time taskmaster.
+-----
+image: cam-gerlach.png
+-----
+facebook:
+-----
+twitter:
+-----
+dribble:
+-----
+instagram:
+-----
+github: https://github.com/CAM-Gerlach
+-----
+linkedin:
+
+
+---
+work:
+
+#### work ####
+title: Meeting Information
+----
+description: As of the 2018 fall semester, the UAH AMS/NWA typically meets once per month, on Fridays 12:00 PM - 1:00 PM in NSSTC Conference room 4078.
+----
+works:
+
+##### w_item #####
+title: Chapter Constitution
+-----
+subtitle: The formal rules governing the organization
+-----
+image: chapter-constitution.png
+-----
+url: https://drive.google.com/file/d/1rE79ZqTc1-lwTREl7rdqOoeRes6pvWIi/view?usp=sharing
+
+##### w_item #####
+title: Presentation Archive
+-----
+subtitle: Full slides from meetings and talks
+-----
+image: presentation-archive.png
+-----
+url: https://drive.google.com/drive/folders/1z39KFPa3QM3kpbjtwnEz1pKqkZDdA_Ly?usp=sharing
+
+##### w_item #####
+title: Meeting Minutes
+-----
+subtitle: Notes summarizing key points from each formal gathering
+-----
+image: meeting-minutes.png
+-----
+url: https://drive.google.com/drive/folders/1hTmFAidv-9QUoZNd_83-NOeu4gP583gU?usp=sharing
+
+##### w_item #####
+title: Event Calender
+-----
+subtitle: An interactive display of upcoming chapter activities
+-----
+image: event-calender.png
+-----
+url: https://calendar.google.com/calendar/b/1?cid=dWFodW50c3ZpbGxlYW1zQGdtYWlsLmNvbQ
+---
+
+
+overview:
+
+#### content ####
+title: About the UAH AMS/NWA
+----
+description:
+----
+content:
+
+The UAH AMS/NWA is the University of Alabama in Huntsville student chapter of the American Meteorological Society and the National Weather Association.
+
+----
+data_section: mission
+---
+
+
+download:
+
+#### content ####
+title: Learn More
+----
+description: Useful links for students, staff and the local community
+----
+content:
+
+* [Link One](https://www.example.com) | Some useful information
+* [Link Two](https://www.example.com) | More useful information
+* [Link Three](https://www.example.com) | Yet more useful information
+
+
+----
+data_section: download
