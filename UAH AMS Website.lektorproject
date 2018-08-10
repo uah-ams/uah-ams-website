@@ -1,2 +1,7 @@
 [project]
 name = UAH AMS Website
+url_style = absolute
+url = https://www.uah-ams.club
+
+[servers.ghpages]
+target = ghpages+https://uah-ams/uah-ams-website?cname=www.uah-ams.club
