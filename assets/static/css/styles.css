@@ -1613,7 +1613,7 @@ a {
 
 a:focus,
 a:hover {
-    color: #ee1c24
+    color: #0077C8
 }
 
 a img {
@@ -1626,7 +1626,7 @@ small a, small a:focus {
 }
 
 li a {
-    color:#ee1c24;
+    color:#0077C8;
 }
 
 small
@@ -2227,7 +2227,7 @@ select[multiple] {
     line-height: 1;
     text-align: center;
     cursor: pointer;
-    background-color: #d10d06da;
+    background-color: #0077C8da;
     color: #fefefe
 }
 
@@ -5838,10 +5838,10 @@ screen and (min-width:40em) {
 
 .blog-post a {
     line-height: inherit;
-    color: #ee1c24;
+    color: #0077C8;
     cursor: pointer;
     text-decoration: none;
-    border-bottom: 1px dotted #ee1c24;
+    border-bottom: 1px dotted #0077C8;
 }
 
 .blog-post h1 a,
@@ -5883,7 +5883,7 @@ screen and (min-width:40em) {
     font-family: Amiri;
     margin-bottom: 20px;
 }
-.blog-post .blog-index-header .row h2{
+.blog-post .blog-index-header .row h2 {
     text-align: left;
     color: #000000;
     font-family: Amiri;
@@ -5942,11 +5942,11 @@ screen and (min-width:40em) {
     color: white;
 }
 
-#fh5co-footer .container .row .text-center{
+#fh5co-footer .container .row .text-center {
     margin-bottom: 0.7em;
 }
 
-#fh5co-footer .container .row .text-center p small{
+#fh5co-footer .container .row .text-center p small {
     font-size: 16px;
     line-height: 2em;
 }
@@ -5983,6 +5983,10 @@ screen and (min-width:40em) {
 #fh5co-donate {
     padding-bottom: 30px;
     background: #FFFFFF;
+}
+
+.fh5co-heading h2::after {
+    background: #0077C8
 }
 
 /*# sourceMappingURL=styles.css.map*/
