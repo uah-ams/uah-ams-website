@@ -1,0 +1,4 @@
+[submodule "themes/hugo-icon"]
+	path = themes/hugo-icon
+	url = https://github.com/uah-ams/hugo-icon.git
+	branch = custom-navbar
