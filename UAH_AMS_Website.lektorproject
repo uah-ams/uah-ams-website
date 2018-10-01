@@ -47,7 +47,7 @@
     download_enable = true
     donate_enable = true
     donate_name = "Join Us"
-    donate_description = "Join the UAH AMS NWA!"
+    donate_description = "Join the UAH AMS NWA! Annual dues are only $10, which help pay for food at meetings and the fun activities we put on. Subscribe to our Google Group for announcements of upcoming meetings, exciting events, and career opportunities, so hope to see you there!"
     footer_enable = true
     footer_note = "<p>&copy; 2018 UAH AMS NWA <br> <a href="https://freehtml5.co/icon-free-website-template-using-bootstrap/" target="_blank">Template</a> designed by <a href='https://freehtml5.co/' target='_blank'>FreeHTML5.co</a> <br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a> <span class="pipe-red">|</span> Lektor port by <a href='https://github.com/dalthviz/' target='_blank'>Dalthviz</a></p>"
     footer_github = "https://github.com/uah-ams/"
