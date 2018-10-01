@@ -1,4 +1,4 @@
-title: Welcome to the UAH AMS/NWA blog!
+title: Welcome to the UAH AMS/NWA site!
 ---
 pub_date: 2018-09-30 00:00
 ---
@@ -8,12 +8,25 @@ category: Announcements
 ---
 author: camgerlach
 ---
-summary: Welcome to the UAH AMS/NWA blog!
+summary: Announcing our all-new website! Now featuring modern web standards; an elegant user interface; responsive, mobile-friendly design; up to date content; a community blog and more!
 ---
 body:
 
-Welcome to the UAH AMS/NWA blog! This is a UAH AMS/NWA blog post.
+We'd like to welcome all of you to our brand new website, after far too long neglecting the [old one](https://www.nsstc.uah.edu/uahams/).
+This new site conforms to modern web standards and exhibits the proper layout on popular browsers, and is vastly easier to maintain and update.
+Furthermore, the site is build using the latest web frameworks, enabling responsive design that dynamically adapts to its window size, and automatically adopts a mobile-friendly layout for easy browsing on the go.
+All the content is brand-new or throughly updated, and it features a number of new elements with more to come!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This [website's repository](https://github.com/uah-ams/uah-ams-website) is now part of the new [UAH AMS Github org](https://github.com/uah-ams), and development is hosted there.
+Its based around the [Lektor](https://www.getlektor.com/) Python static site generator, which is set up to automatically build and deploy the site on the [Travis](https://travis-ci.org/) continuous integration servers whenever new changes are merged, which is then served via [Github Pages](https://pages.github.com/) to a custom domain.
+The code and infrastructure is all free (libre) and open-source, so don't hesitate to take a look around, use the code for your own projects or even contribute something of your own!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Finally, and perhaps most exciting for you all, we've got a new blog that any member can submit their atmospheric/earth systems science or UAH-related content to, and we'll review and publish it for you!
+We welcome articles highlighting the latest AMS/NWA, department and atmospheric science-related happenings, showcasing recent research by students and faculty in the department, providing a fresh perspective on science or weather-related topics, describing opportunities for students to get involved, offering a "how-to guide" or tips on a subject of relevance to the community, and more!
+Whether you're a forecaster looking to share your insights, a researcher wanting to raise awareness of your work, a broadcaster needing to hone your public communication skills or  private sector bound and want to put yourself out there as someone who takes initiative, this official blog is the perfect opportunity to do so!
+
+You don't need to know fancy HTML, CSS or Javascript to submit directly to the blog, just simple Markdown and Git/Github; you can even use this post as a template!
+Just fork the repository, create a new branch and add your post in it (you can just copy this one's directory and make your changes from there), then push your changes to your fork and submit a Github pull request against the main repo, and you're good to go!
+If even that's too much, feel free to contact the UAH AMS or myself by email or any of the methods below, and we'll be glad to review, edit and post it for you if you send us the text.
+
+Thanks, and looking forward to seeing what you all come up with!
