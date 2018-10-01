@@ -298,10 +298,17 @@ description: Useful links for students, staff and the local community
 ----
 content:
 
-* [Link One](https://www.example.com) | Some useful information
-* [Link Two](https://www.example.com) | More useful information
-* [Link Three](https://www.example.com) | Yet more useful information
+[UAH ATS Department](https://www.uah.edu/science/departments/atmospheric-science) <span class="pipe-red">|</span> For the Atmospheric Science program at UAH.
 
+[NSSTC Site](https://www.uah.edu/science/departments/atmospheric-science) <span class="pipe-red">|</span> For general information and links related to the National Space Science and Technology Center.
+
+[MIPS Website](https://www.nsstc.uah.edu/mips/) <span class="pipe-red">|</span> Information and live data from various UAH surface and remote-sensing platforms.
+
+[Huntsville NWS Briefing Page](https://www.weather.gov/hun/embrief) <span class="pipe-red">|</span> For an array of general and severe weather information in the Huntsville area.
+
+[Main AMS Site](https://www.ametsoc.org/) <span class="pipe-red">|</span> The national American Meteorological Society organization.
+
+[Main NWA Site](https://nwas.org/) <span class="pipe-red">|</span> The National Weather Association page.
 
 ----
 data_section: download
