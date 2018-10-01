@@ -36,7 +36,7 @@
     donate_nav = "Join Us"
     hero_img = "/static/images/uah-ams-website-banner.jpg"
     hero_title = "UAH AMS NWA"
-    hero_description = "Welcome to the UAH Chapter of the American Meteorological Society and the National Weather Association!"
+    hero_description = "Welcome to the UAH student chapter of<br/>the American Meteorological Society and<br/>the National Weather Association!"
     mission_enable = true
     mission_images_enable = true
     overview_enable = true

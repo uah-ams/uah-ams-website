@@ -5986,7 +5986,11 @@ screen and (min-width:40em) {
 }
 
 .fh5co-heading h2::after {
-    background: #0077C8
+    background: #0077C8;
+}
+
+#fh5co-home .container .col-md-6 {
+    float: right;
 }
 
 /*# sourceMappingURL=styles.css.map*/
