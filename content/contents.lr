@@ -79,10 +79,7 @@ We arrange a vareity of formal and informal gatherings for students and faculty 
 icon: social-events.jpg
 
 
-
 ---
-
-
 team:
 
 #### team ####
@@ -93,11 +90,95 @@ description: The UAH AMS/NWA's executive board
 members:
 
 ##### member #####
+name: Doug Kahn
+-----
+position: President
+-----
+description:
+-----
+image: doug-kahn.jpg
+-----
+facebook:
+-----
+twitter:
+-----
+dribble:
+-----
+instagram:
+-----
+github:
+-----
+linkedin:
+
+##### member #####
+name: Shane Pendleton
+-----
+position: Vice President
+-----
+description:
+-----
+image: shane-pendleton.jpg
+-----
+facebook:
+-----
+twitter:
+-----
+dribble:
+-----
+instagram:
+-----
+github:
+-----
+linkedin:
+
+##### member #####
+name: Emily Mayes
+-----
+position: Treasurer
+-----
+description:
+-----
+image: placeholder.png
+-----
+facebook:
+-----
+twitter:
+-----
+dribble:
+-----
+instagram:
+-----
+github:
+-----
+linkedin:
+
+##### member #####
+name: Christine Evans
+-----
+position: Secretary
+-----
+description:
+-----
+image: christine-evans.jpg
+-----
+facebook:
+-----
+twitter:
+-----
+dribble:
+-----
+instagram:
+-----
+github:
+-----
+linkedin:
+
+##### member #####
 name: C.A.M. Gerlach
 -----
-position: Web Developer
+position: Webmaster
 -----
-description: Part-time webmaster.<br>Full time taskmaster.
+description:
 -----
 image: cam-gerlach.png
 -----
@@ -110,6 +191,27 @@ dribble:
 instagram:
 -----
 github: https://github.com/CAM-Gerlach
+-----
+linkedin:
+
+##### member #####
+name: Jarod Sparacio
+-----
+position: Undergraduate Rep
+-----
+description:
+-----
+image: placeholder.png
+-----
+facebook:
+-----
+twitter:
+-----
+dribble:
+-----
+instagram:
+-----
+github:
 -----
 linkedin:
 
