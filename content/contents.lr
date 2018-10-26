@@ -233,7 +233,9 @@ subtitle: The formal rules governing the organization
 -----
 image: chapter-constitution.png
 -----
-url: https://drive.google.com/file/d/1rE79ZqTc1-lwTREl7rdqOoeRes6pvWIi/view?usp=sharing
+url: chapter-constitution.pdf
+-----
+direct_link: true
 
 ##### w_item #####
 title: Presentation Archive
@@ -243,6 +245,8 @@ subtitle: Full slides from meetings and talks
 image: presentation-archive.png
 -----
 url: https://drive.google.com/drive/folders/1z39KFPa3QM3kpbjtwnEz1pKqkZDdA_Ly?usp=sharing
+-----
+direct_link: true
 
 ##### w_item #####
 title: Meeting Minutes
@@ -252,6 +256,9 @@ subtitle: Notes summarizing key points from each formal gathering
 image: meeting-minutes.png
 -----
 url: https://drive.google.com/drive/folders/1hTmFAidv-9QUoZNd_83-NOeu4gP583gU?usp=sharing
+-----
+direct_link: true
+
 
 ##### w_item #####
 title: Event Calender
@@ -261,6 +268,8 @@ subtitle: An interactive display of upcoming chapter activities
 image: event-calender.png
 -----
 url: https://calendar.google.com/calendar/b/1?cid=dWFodW50c3ZpbGxlYW1zQGdtYWlsLmNvbQ
+-----
+direct_link: true
 ---
 
 

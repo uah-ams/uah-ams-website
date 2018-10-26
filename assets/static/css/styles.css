@@ -5508,16 +5508,6 @@ screen and (min-width:64em) {
     box-shadow: 0 2px #450200
 }
 
-#menu-logo a {
-    padding-bottom: 0;
-    padding-top: 0
-}
-
-#menu-logo span {
-    display: inline-block;
-    color: #333
-}
-
 #menu-logo span span {
     display: block
 }
@@ -5530,10 +5520,6 @@ screen and (min-width:64em) {
 
 #menu-logo span #logo-small-text {
     font-size: .7em
-}
-
-#menu-logo img {
-    width: 3.7em
 }
 
 .top-bar-right input {
@@ -5937,31 +5923,6 @@ screen and (min-width:40em) {
     width:40%;
 }
 
-#fh5co-footer {
-    padding: 0.9em 0;
-    color: white;
-}
-
-#fh5co-footer .container .row .text-center {
-    margin-bottom: 0.7em;
-}
-
-#fh5co-footer .container .row .text-center p small {
-    font-size: 16px;
-    line-height: 2em;
-}
-
-
-#fh5co-footer .container .row .text-center p {
-    font-size: 13px;
-    line-height: 1.2em;
-}
-
-#fh5co-footer a, #fh5co-footer a:focus {
-    color: white;
-    font-weight: bold;
-}
-
 .service .icon img {
     width: 90%;
 }
@@ -5983,10 +5944,6 @@ screen and (min-width:40em) {
 #fh5co-donate {
     padding-bottom: 30px;
     background: #FFFFFF;
-}
-
-.fh5co-heading h2::after {
-    background: #0077C8;
 }
 
 #fh5co-home .container .col-md-6 {
