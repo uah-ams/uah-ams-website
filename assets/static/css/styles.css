@@ -5741,31 +5741,12 @@ footer li {
     margin-right: 1%
 }
 
-.donate{
+.donate {
     width:40%;
 }
 
 .service .icon img {
     width: 90%;
-}
-
-#fh5co-team .person img {
-    width: 50%;
-}
-
-#fh5co-team {
-    padding-top: 3em;
-    padding-bottom: 0;
-}
-
-#fh5co-download {
-    padding-bottom: 30px;
-    background: #E8ECF1;
-}
-
-#fh5co-donate {
-    padding-bottom: 30px;
-    background: #FFFFFF;
 }
 
 #fh5co-home .container .col-md-6 {
