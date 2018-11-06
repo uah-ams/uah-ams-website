@@ -20,6 +20,7 @@
     description = "UAH AMS NWA Website"
     other_css = "/static/css/styles.css"
     content_lang = "en"
+    loader_enable = true
     nav_logo_enable = true
     nav_logo_path = "/static/images/uah-ams-logo.png"
     nav_logo_text = "<big>UAH AMS</big>"
