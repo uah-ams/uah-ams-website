@@ -1,4 +1,4 @@
-_model: single_layout
+_model: single-layout
 ---
 
 mission:
@@ -16,70 +16,82 @@ services:
 ##### service #####
 title: Outreach
 -----
+
 description:
 
 We collaborate with local schools and community partners to inform and inspire the next generation through public events, presentations, tutoring and hands-on fun.
-
 -----
+
 icon: outreach.jpg
+-----
 
 
 ##### service #####
 title: Career Development
 -----
+
 description:
 
 We offer networking events, hands-on workshops, professional skills, and research and travel opportunities to help students achieve their dreams.
-
 -----
+
 icon: career-development.jpg
+-----
 
 
 ##### service #####
 title: Speakers
 -----
+
 description:
 
 We host talks featuring a broad spectrum of notable local individuals, from forecasters to broadcasters, and NASA researchers to private-sector meteorologists.
-
 -----
-icon: speakers.jpg
 
+icon: speakers.jpg
+-----
 
 ##### service #####
 title: Conferences
 -----
+
 description:
 
 We fund and help coordinate travel to local, regional and national symposium, most notably the AMS annual meeting, and report on the chapter's yearly activities.
-
 -----
+
 icon: conferences.jpg
+-----
 
 
 ##### service #####
 title: Rocket City Weatherfest
 -----
+
 description:
 
 We organize the annual RCWF event, which attracts thousands of families and hundreds of participants from many hours away to learn about weather, climate and safety.
-
 -----
+
 icon: rcwf.jpg
+-----
 
 
 ##### service #####
 title: Social Events
 -----
+
 description:
 
 We arrange a vareity of formal and informal gatherings for students and faculty to meet and network with their peers, share common interests, and build bonds with colleagues.
-
 -----
+
 icon: social-events.jpg
-
-
+-----
 ---
+
+
+
 team:
 
 #### team ####
@@ -109,6 +121,7 @@ instagram:
 github:
 -----
 linkedin:
+-----
 
 ##### member #####
 name: Shane Pendleton
@@ -130,6 +143,7 @@ instagram:
 github:
 -----
 linkedin:
+-----
 
 ##### member #####
 name: Emily Mayes
@@ -151,6 +165,7 @@ instagram:
 github:
 -----
 linkedin:
+-----
 
 ##### member #####
 name: Christine Evans
@@ -172,6 +187,7 @@ instagram:
 github:
 -----
 linkedin:
+-----
 
 ##### member #####
 name: C.A.M. Gerlach
@@ -193,6 +209,7 @@ instagram:
 github: https://github.com/CAM-Gerlach
 -----
 linkedin:
+-----
 
 ##### member #####
 name: Jarod Sparacio
@@ -214,6 +231,8 @@ instagram:
 github:
 -----
 linkedin:
+-----
+
 
 
 ---
@@ -238,6 +257,7 @@ image: chapter-constitution.png
 url: chapter-constitution.pdf
 -----
 direct_link: true
+-----
 
 ##### w_item #####
 title: Presentation Archive
@@ -248,7 +268,8 @@ image: presentation-archive.png
 -----
 url: https://drive.google.com/drive/folders/1z39KFPa3QM3kpbjtwnEz1pKqkZDdA_Ly?usp=sharing
 -----
-direct_link: true
+direct_link: false
+-----
 
 ##### w_item #####
 title: Meeting Minutes
@@ -259,8 +280,8 @@ image: meeting-minutes.png
 -----
 url: https://drive.google.com/drive/folders/1hTmFAidv-9QUoZNd_83-NOeu4gP583gU?usp=sharing
 -----
-direct_link: true
-
+direct_link: false
+-----
 
 ##### w_item #####
 title: Event Calender
@@ -272,6 +293,7 @@ image: event-calender.png
 url: https://calendar.google.com/calendar/b/1?cid=dWFodW50c3ZpbGxlYW1zQGdtYWlsLmNvbQ
 -----
 direct_link: true
+-----
 ---
 
 
@@ -293,9 +315,8 @@ The department offers a B.S. in earth system science with 7 specialty tracks, an
 
 Our chapter is home to a diverse variety of members from all around the world, and counts students specializing in areas ranging from meteorology, climate change and atmospheric chemistry to aerospace and civil engineering among its number.
 Whatever your interest in the atmosphere and whatever you're looking to get out of a student organization, the UAH AMS/NWA offers something for everyone, so check us out!
-
-
 ----
+
 data_section: mission
 ---
 
@@ -309,17 +330,17 @@ description: Useful links for students, staff and the local community
 ----
 content:
 
-[UAH ATS Department](https://www.uah.edu/science/departments/atmospheric-science) <span class="pipe-red">|</span> For the Atmospheric Science program at UAH.
+[UAH ATS Department](https://www.uah.edu/science/departments/atmospheric-science) <span class="pipe-colored">|</span> For the Atmospheric Science program at UAH.
 
-[NSSTC Site](https://www.uah.edu/science/departments/atmospheric-science) <span class="pipe-red">|</span> For general information and links related to the National Space Science and Technology Center.
+[NSSTC Site](https://www.uah.edu/science/departments/atmospheric-science) <span class="pipe-colored">|</span> For general information and links related to the National Space Science and Technology Center.
 
-[MIPS Website](https://www.nsstc.uah.edu/mips/) <span class="pipe-red">|</span> Information and live data from various UAH surface and remote-sensing platforms.
+[MIPS Website](https://www.nsstc.uah.edu/mips/) <span class="pipe-colored">|</span> Information and live data from various UAH surface and remote-sensing platforms.
 
-[Huntsville NWS Briefing Page](https://www.weather.gov/hun/embrief) <span class="pipe-red">|</span> For an array of general and severe weather information in the Huntsville area.
+[Huntsville NWS Briefing Page](https://www.weather.gov/hun/embrief) <span class="pipe-colored">|</span> For an array of general and severe weather information in the Huntsville area.
 
-[Main AMS Site](https://www.ametsoc.org/) <span class="pipe-red">|</span> The national American Meteorological Society organization.
+[Main AMS Site](https://www.ametsoc.org/) <span class="pipe-colored">|</span> The national American Meteorological Society organization.
 
-[Main NWA Site](https://nwas.org/) <span class="pipe-red">|</span> The National Weather Association page.
-
+[Main NWA Site](https://nwas.org/) <span class="pipe-colored">|</span> The National Weather Association page.
 ----
+
 data_section: download
