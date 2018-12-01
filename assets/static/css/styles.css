@@ -6,14 +6,10 @@
   width: 90%;
 }
 
-#fh5co-home .container .col-md-6 {
+.hero-section .container .col-md-6 {
   float: right;
 }
 
-#error-page.page-content-container {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("/static/images/error-page-bg.jpg");
-}
-
 #error-page .page-content p {
-  color: black;
+  color: #000000;
 }

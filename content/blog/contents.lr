@@ -1,1 +1,7 @@
 _model: blog
+---
+title: Recent Posts
+---
+sort_key: 1
+---
+_discoverable: yes
