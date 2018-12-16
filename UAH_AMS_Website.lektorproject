@@ -2,7 +2,7 @@
     name = UAH AMS NWA Website
     url_style = absolute
     url = https://www.uah-ams.club
-    themes = hugo-icon
+    themes = lektor-icon
 
 [packages]
     lektor-markdown-header-anchors = 0.1
@@ -19,22 +19,24 @@
     title = "UAH AMS NWA Website"
     content_lang = "en-US"
     author = "UAH AMS NWA Chapter"
-    copyright = "&copy; 2018 UAH AMS NWA"
+    copyright = "&copy; 2019 UAH AMS NWA"
     description = "Official site of the UAH student chapter of the American Meteorological Society and the National Weather Association"
     keywords = "meteorology, weather, atmospheric science, club, alabama, college, forecast"
+    favicon_path = "/static/images/favicon.png"
     theme_accent_color = #0077c8
     theme_pipe_color = #009fdf
-    custom_css = "/static/css/styles.css"
+    custom_css = "/static/css/custom_styles.css"
     content_security_policy = true
     content_security_policy_frame_src =
     content_security_policy_script_src =
+    content_security_policy_style_src =
     loader_enable = true
-    nav_logo_enable = true
     nav_logo_path = "/static/images/uah-ams-logo.png"
     nav_logo_text = "UAH AMS"
-    nav_extralinks = UPSTORM: https://upstorm.uah-ams.club
-    footer_enable = true
+    nav_extralinks =
     footer_links = "Facebook: https://www.facebook.com/American-Meteorological-Society-UAH-Chapter-875343375834391/, Twitter: https://twitter.com/uah_ams_nwa, Google Groups: https://groups.google.com/forum/?hl=en#!forum/uahuntsvilleams, Github: https://github.com/uah-ams/"
     footer_license_name = "MIT (Code); CC-BY-SA 4.0 (Content)"
     footer_license_link = "https://github.com/uah-ams/uah-ams-website/blob/master/LICENSE.txt"
     gitter_room =
+    disqus_name =
+    atom_enable =

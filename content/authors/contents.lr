@@ -1,8 +1,6 @@
 _model: authors
 ---
-_discoverable: no
+_discoverable: false
 ---
-_template: none.html
----
-_hidden: no
+_hidden: false
 ---

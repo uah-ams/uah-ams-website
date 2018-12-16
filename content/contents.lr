@@ -2,9 +2,8 @@ _model: single-layout
 ---
 
 
-show_home_nav: true
+show_home_nav: false
 ---
-
 hero_title: UAH AMS NWA
 ---
 hero_description:
@@ -21,7 +20,7 @@ starting_block_bg: dark
 main_content:
 
 #### content ####
-section_id: overview
+section_id: about
 ----
 title: About the UAH AMS/NWA
 ----
@@ -45,13 +44,16 @@ Whatever your interest in the atmosphere and whatever you're looking to get out 
 
 
 #### services ####
-section_id: services
+section_id: activities
 ----
 title: Activities
 ----
+description:
+----
 nav_label: Activities
 ----
-
+video_url:
+----
 services:
 
 ##### service #####
@@ -134,7 +136,7 @@ icon: social-events.jpg
 
 
 #### gallery ####
-section_id: gallery
+section_id: meetings
 ----
 title: Meeting Information
 ----
@@ -146,7 +148,7 @@ show_titles: true
 ----
 gallery_items:
 
-##### w_item #####
+##### gallery_item #####
 title: Chapter Constitution
 -----
 subtitle: The formal rules governing the organization
@@ -159,7 +161,7 @@ direct_link: true
 -----
 
 
-##### w_item #####
+##### gallery_item #####
 title: Presentation Archive
 -----
 subtitle: Full slides from meetings and talks
@@ -168,11 +170,11 @@ image: presentation-archive.png
 -----
 url: https://drive.google.com/drive/folders/1z39KFPa3QM3kpbjtwnEz1pKqkZDdA_Ly?usp=sharing
 -----
-direct_link: false
+direct_link: true
 -----
 
 
-##### w_item #####
+##### gallery_item #####
 title: Meeting Minutes
 -----
 subtitle: Notes summarizing key points from each formal gathering
@@ -181,11 +183,11 @@ image: meeting-minutes.png
 -----
 url: https://drive.google.com/drive/folders/1hTmFAidv-9QUoZNd_83-NOeu4gP583gU?usp=sharing
 -----
-direct_link: false
+direct_link: true
 -----
 
 
-##### w_item #####
+##### gallery_item #####
 title: Event Calender
 -----
 subtitle: An interactive display of upcoming chapter activities
@@ -348,7 +350,7 @@ linkedin:
 
 
 #### content ####
-section_id: download
+section_id: links
 ----
 title: Learn More
 ----
@@ -374,7 +376,7 @@ content:
 
 
 #### content ####
-section_id: donate
+section_id: join
 ----
 title: Join Us
 ----
