@@ -1,3 +1,4 @@
-[submodule "themes/hugo-icon"]
-	path = themes/hugo-icon
-	url = https://github.com/spyder-ide/hugo-icon.git
+[submodule "themes/lektor-icon"]
+	path = themes/lektor-icon
+	url = https://github.com/uah-ams/lektor-icon.git
+	branch = modularity-fixes

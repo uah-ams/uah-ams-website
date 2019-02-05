@@ -1,58 +1,39 @@
 [project]
-    name = UAH AMS NWA Website
-    url_style = absolute
-    url = https://www.uah-ams.club
-    themes = hugo-icon
-
-[packages]
-    lektor-markdown-header-anchors = 0.1
+name = UAH AMS NWA Website
+url_style = absolute
+url = https://www.uah-ams.club
+themes = lektor-icon
 
 [servers.ghpages]
-    target = ghpages+https://uah-ams/uah-ams-website?cname=www.uah-ams.club
+target = ghpages+https://uah-ams/uah-ams-website?cname=www.uah-ams.club
 
 [alternatives.en]
-    name = English
-    primary = yes
-    locale = en_US
+name = English
+primary = yes
+locale = en_US
 
 [theme_settings]
-    author = "UAH AMS NWA Chapter"
-    description = "UAH AMS NWA Website"
-    other_css = "/static/css/styles.css"
-    content_lang = "en"
-    extension_nav = true
-    spyder_nav_content = true
-    ext_1_ref = "/blog"
-    ext_1_title = "Blog"
-    ext_2_ref =
-    ext_2_title = "Minutes"
-    ext_3_ref =
-    ext_3_title = "UPSTORM"
-    nav_mission = "About"
-    nav_services = "Activities"
-    nav_work = "Meetings"
-    nav_team = "Exec Team"
-    mission_2_nav = "Learn More"
-    donate_nav = "Join Us"
-    hero_img = "/static/images/uah-ams-website-banner.jpg"
-    hero_title = "UAH AMS NWA"
-    hero_description = "Welcome to the UAH student chapter of<br/>the American Meteorological Society and<br/>the National Weather Association!"
-    mission_enable = true
-    mission_images_enable = true
-    overview_enable = true
-    services_enable = true
-    service_video_url = ""
-    work_enable = true
-    team_enable = true
-    download_enable = true
-    donate_enable = true
-    donate_name = "Join Us"
-    donate_description = "Join the UAH AMS NWA! Annual dues are only $10, which help pay for food at meetings and the fun activities we put on. Subscribe to our Google Group for announcements of upcoming meetings, exciting events, and career opportunities, so hope to see you there!"
-    footer_enable = true
-    footer_note = "<p>&copy; 2018 UAH AMS NWA <br> <a href="https://freehtml5.co/icon-free-website-template-using-bootstrap/" target="_blank">Template</a> designed by <a href='https://freehtml5.co/' target='_blank'>FreeHTML5.co</a> <br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a> <span class="pipe-red">|</span> Lektor port by <a href='https://github.com/dalthviz/' target='_blank'>Dalthviz</a></p>"
-    footer_github = "https://github.com/uah-ams/"
-    footer_twitter = "https://twitter.com/uah_ams_nwa"
-    footer_facebook = "https://www.facebook.com/American-Meteorological-Society-UAH-Chapter-875343375834391/"
-    footer_google = "https://groups.google.com/forum/?hl=en#!forum/uahuntsvilleams"
-    opencollective =
-    gitter_room =
+title = UAH AMS NWA Website
+content_lang = en-US
+author = UAH AMS NWA Chapter
+copyright = &copy; 2019 UAH AMS NWA
+description = Official site of the UAH student chapter of the American Meteorological Society and the National Weather Association
+keywords = meteorology, weather, atmospheric science, club, alabama, college, forecast
+favicon_path = /static/images/favicon.png
+theme_accent_color = #0077c8
+theme_pipe_color = #009fdf
+custom_css = /static/css/custom_styles.css
+content_security_policy = true
+content_security_policy_frame_src =
+content_security_policy_script_src =
+content_security_policy_style_src =
+loader_enable = true
+nav_logo_path = /static/images/uah-ams-logo.png
+nav_logo_text = UAH AMS
+nav_extralinks =
+footer_links = Facebook: https://www.facebook.com/American-Meteorological-Society-UAH-Chapter-875343375834391/, Twitter: https://twitter.com/uah_ams_nwa, Google Groups: https://groups.google.com/forum/?hl=en#!forum/uahuntsvilleams, Github: https://github.com/uah-ams/
+footer_license_name = MIT (Code); CC-BY-SA 4.0 (Content)
+footer_license_link = https://github.com/uah-ams/uah-ams-website/blob/master/LICENSE.txt
+gitter_room =
+disqus_name =
+atom_enable =

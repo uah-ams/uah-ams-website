@@ -1,1 +1,10 @@
 _model: blog
+---
+title: Recent Posts
+---
+sort_key: 1
+---
+_discoverable: true
+---
+allow_comments_default: false
+---

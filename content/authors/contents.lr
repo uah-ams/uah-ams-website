@@ -1,7 +1,6 @@
-_model: page
+_model: authors
 ---
-title: Authors
+_discoverable: false
 ---
-body:
-
-Authors
+_hidden: false
+---
