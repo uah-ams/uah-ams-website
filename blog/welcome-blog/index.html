@@ -1,29 +1,39 @@
 <!DOCTYPE html>
-<html lang="en-US">
 
+
+
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="Access-Control-Allow-Origin" content="Origin">
   
   
   <meta http-equiv="Content-Security-Policy" content="
+
+
+
+
+
+
+
+
+
+
+
+
+
 base-uri 'self';
 default-src 'self';
 font-src 'self' https://fonts.gstatic.com;
-
-frame-src 'self' http: https:;
-
-img-src 'self' http: https:;
+frame-src &#39;self&#39; http: https:;
+img-src &#39;self&#39; http: https: data:;
 plugin-types application/pdf;
-
-script-src 'self' https://gitter.im https://*.gitter.im https://disqus.com https://*.disqus.com https://*.disquscdn.com 'unsafe-inline';
-
-style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
+script-src &#39;self&#39; &#39;unsafe-inline&#39;;
+style-src &#39;self&#39; https://fonts.googleapis.com &#39;unsafe-inline&#39;;
 ">
   
   
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="X-XSS-Protection" content="1">
   <meta name="referrer" content="never">  <!-- Fallback for IE/Edge/Safari -->
   <meta name="referrer" content="no-referrer">  <!-- Fallback for Chrome lt 61 -->
@@ -37,18 +47,58 @@ style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
   <!-- Twitter:        https://twitter.com/fh5co -->
   <!-- Facebook:       https://www.facebook.com/fh5co -->
 
-  <!-- HUGO TEMPLATE PORTED BY SteveLane-->
+  <!-- HUGO TEMPLATE PORTED BY SteveLane -->
   <!-- Website:        https://interadata.io/ -->
 
+  <!-- LEKTOR THEME PORTED BY Daniel Althviz -->
+  <!-- Website:        https://dalthviz.github.io/ -->
+
+  <!-- LEKTOR THEME MAINTAINED AND EXPANED BY Spyder Dev Team -->
+  <!-- Website:        https://github.com/spyder-ide/lektor-icon -->
+
+  <!-- Copyright (c) 2016- Lektor-Icon Contributors -->
+
+  <!-- Original standalone HTML5 theme distributed under the terms of the -->
+  <!-- Creative Commons Attribution 3.0 license -->
+  <!-- https://creativecommons.org/licenses/by/3.0/ -->
+
+  <!-- Additions, modifications and porting released under the terms of the -->
+  <!-- MIT (Expat) License: https://opensource.org/licenses/MIT -->
+  <!-- See the LICENSE.txt file for more details -->
+  <!-- https://github.com/spyder-ide/lektor-icon/blob/master/LICENSE.txt -->
+
+  <!-- For information on the included third-party assets, see NOTICE.txt -->
+  <!-- https://github.com/spyder-ide/lektor-icon/blob/master/NOTICE.txt -->
+
   <title>Blog | Welcome to the UAH AMS/NWA site! — UAH AMS NWA Website</title>
+  
   <meta name="author" content="UAH AMS NWA Chapter" lang="en-US">
-  <meta name="copyright" content="&amp;copy; 2018 UAH AMS NWA" lang="en-US">
+  
+  
+  <meta name="copyright" content="&amp;copy; 2019 UAH AMS NWA" lang="en-US">
+  
+  
   <meta name="description" content="Official site of the UAH student chapter of the American Meteorological Society and the National Weather Association" lang="en-US">
+  
+  
   <meta name="keywords" content="meteorology, weather, atmospheric science, club, alabama, college, forecast" lang="en-US">
-  <meta name="theme-color" content="#ee1c24">
+  
+  
+  <meta name="theme-color" content="#0077c8">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" href="/static/images/favicon.png?h=8b7d3926" type="image/png">
+  <link rel="icon" href="/static/images/favicon.png?h=76e35d6e" type="image/png">
+  <style>
+    :root {
+      
+      --theme-accent-color: #0077c8;
+      
+      
+      --theme-pipe-color: #009fdf
+      
+    }
+  </style>
   
   
   <!-- Google fonts -->
@@ -56,9 +106,10 @@ style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata" type="text/css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="/static/css/style.css?h=a19e39a3" type="text/css">
+  <link rel="stylesheet" href="/static/css/style.css?h=ab02f53d" type="text/css">
   
-  <link rel="stylesheet" href="/static/css/styles.css?h=75feb793" type="text/css">
+  <!-- User Custom CSS -->
+  <link rel="stylesheet" href="/static/css/custom_styles.css?h=472a01d0" type="text/css">
   
 </head>
 
@@ -73,13 +124,15 @@ style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
         <div class="container">
           <div class="fh5co-menu-1">
             
+            
+            
             <div class='pull-left'>
               <ul class='dropdown menu' data-dropdown-menu>
                 <li id='menu-logo'>
                   <p></p>
                     <a href='/'>
                     
-                    <img alt="UAH AMS NWA Website Logo" src='/static/images/uah-ams-logo.png'>
+                    <img alt="Site Logo" src="/static/images/uah-ams-logo.png?h=1efb4aa2">
                     
                     
                     <span class="logo-text-container">
@@ -91,44 +144,67 @@ style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
                 </li>
               </ul>
             </div>
-            
 
-            
+            <div class="main-nav-container">
+              
 
-            
-            
-            
-            
-            <a class="pull-right" href="/blog/" >Blog</a>
-            
-            
+
+
+              
+              <div class="side-nav-container">
+                
+
+                
+                
+                
+                
+                
+                <a class="pull-right" href="/blog/">Blog</a>
+                
+                
+              </div>
+              
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     
-<div id="fh5co-about-white" data-section="Blog">
+<div class="blog-content-container" data-section="Blog">
+  
   
   <div id="blog-center" class="center">
     
 
 
+
+
+
 <div class="blog-post">
   
-  <div class="row">
-    <div class="meta-blog-author column small-1">
-      <img alt="C.A.M. Gerlach photo" class="author-img" src="/authors/camgerlach/cam-gerlach.png" />
+  <div class="blog-header blog-post-header">
+  
+    <div class="row">
+      
+      <div class="column meta-blog-author">
+        <img alt="C.A.M. Gerlach photo" class="author-img" src="/authors/camgerlach/cam-gerlach.png">
+      </div>
+      
+      <div class="meta-blog-index">
+        <p>
+          
+          C.A.M. Gerlach<br>
+          
+          
+          <span class="small">2018-09-30</span>
+          
+        </p>
+      </div>
     </div>
-    <div class="meta-blog-index">
-      <p>
-        C.A.M. Gerlach<br>
-        <span class="small">2018-09-30</span>
-      </p>
-    </div>
-  </div>
-  <h1>Welcome to the UAH AMS/NWA site!</h1>
-  <p>We'd like to welcome all of you to our brand new website, after far too long neglecting the <a href="https://www.nsstc.uah.edu/uahams/">old one</a>.
+    
+    <h1>Welcome to the UAH AMS/NWA site!</h1>
+    <p>We'd like to welcome all of you to our brand new website, after far too long neglecting the <a href="https://www.nsstc.uah.edu/uahams/">old one</a>.
 This new site conforms to modern web standards and exhibits the proper layout on popular browsers, and is vastly easier to maintain and update.
 Furthermore, the site is build using the latest web frameworks, enabling responsive design that dynamically adapts to its window size, and automatically adopts a mobile-friendly layout for easy browsing on the go.
 All the content is brand-new or throughly updated, and it features a number of new elements with more to come!</p>
@@ -143,21 +219,23 @@ Just fork the repository, create a new branch and add your post in it (you can j
 If even that's too much, feel free to contact the UAH AMS or myself by email or any of the methods below, and we'll be glad to review, edit and post it for you if you send us the text.</p>
 <p>Thanks, and looking forward to seeing what you all come up with!</p>
 
+    
+  </div>
   
 </div>
+
 
 
   </div>
 </div>
 
 
-    
     <div id="fh5co-footer">
       <div class="container">
         
-        <div class="row">
+        <div class="row footer-connect-line">
           <div class="text-center">
-            <p><small>
+            <p>
               Connect with us on:
               
               
@@ -178,15 +256,15 @@ If even that's too much, feel free to contact the UAH AMS or myself by email or 
               
               <a href="https://github.com/uah-ams/"> Github </a>
               
-            </small></p>
+            </p>
           </div>
         </div>
         
-        <div class="row">
+        <div class="row footer-copyright">
           <div class="text-center">
             <p>
               
-              &copy; 2018 UAH AMS NWA
+              &copy; 2019 UAH AMS NWA
               
               
               <span class="pipe-colored"> | </span>
@@ -198,13 +276,12 @@ If even that's too much, feel free to contact the UAH AMS or myself by email or 
               <br>
               
               <a href="https://freehtml5.co/icon-free-website-template-using-bootstrap/" target="_blank" rel="noopener noreferrer">Template</a> designed by <a href="https://freehtml5.co/" target="_blank" rel="noopener noreferrer">FreeHTML5.co</a>  <span class="pipe-colored"> | </span> Licensed <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC-BY 3.0</a>
-              <br>Hugo port by <a href="https://github.com/SteveLane/" target="_blank" rel="noopener noreferrer">SteveLane</a> <span class="pipe-colored">|</span> Lektor port by <a href="https://github.com/dalthviz/" target="_blank" rel="noopener noreferrer">Dalthviz</a> and <a href="https://www.spyder-ide.org/" target="_blank" rel="noopener noreferrer">Spyder</a>
+              <br><a href="https://github.com/SteveLane/hugo-icon" target="_blank" rel="noopener noreferrer">Hugo port</a> by <a href="https://github.com/SteveLane/" target="_blank" rel="noopener noreferrer">SteveLane</a> <span class="pipe-colored">|</span> <a href="https://github.com/spyder-ide/lektor-icon" target="_blank" rel="noopener noreferrer">Lektor port</a> by <a href="https://github.com/dalthviz/" target="_blank" rel="noopener noreferrer">Dalthviz</a> and <a href="https://www.spyder-ide.org/" target="_blank" rel="noopener noreferrer">Spyder</a>
             </p>
           </div>
         </div>
       </div>
     </div>
-    
   </div>
 </div>
 
@@ -213,7 +290,7 @@ If even that's too much, feel free to contact the UAH AMS or myself by email or 
 <!-- Waypoints -->
 <script src="/static/js/jquery.waypoints.min.js?h=a2b72d43" type="application/javascript" charset="UTF-8"></script>
 <!-- Main JS -->
-<script src="/static/js/main.js?h=f03b056f" type="application/javascript" charset="UTF-8"></script>
+<script src="/static/js/main.js?h=6653e38d" type="application/javascript" charset="UTF-8"></script>
 
 
 <!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.js" type="application/javascript" charset="UTF-8"></script> -->

@@ -1,29 +1,39 @@
 <!DOCTYPE html>
-<html lang="en-US">
 
+
+
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="Access-Control-Allow-Origin" content="Origin">
   
   
   <meta http-equiv="Content-Security-Policy" content="
+
+
+
+
+
+
+
+
+
+
+
+
+
 base-uri 'self';
 default-src 'self';
 font-src 'self' https://fonts.gstatic.com;
-
-frame-src 'self' http: https:;
-
-img-src 'self' http: https:;
+frame-src &#39;self&#39; http: https:;
+img-src &#39;self&#39; http: https: data:;
 plugin-types application/pdf;
-
-script-src 'self' https://gitter.im https://*.gitter.im https://disqus.com https://*.disqus.com https://*.disquscdn.com 'unsafe-inline';
-
-style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
+script-src &#39;self&#39; &#39;unsafe-inline&#39;;
+style-src &#39;self&#39; https://fonts.googleapis.com &#39;unsafe-inline&#39;;
 ">
   
   
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="X-XSS-Protection" content="1">
   <meta name="referrer" content="never">  <!-- Fallback for IE/Edge/Safari -->
   <meta name="referrer" content="no-referrer">  <!-- Fallback for Chrome lt 61 -->
@@ -37,30 +47,92 @@ style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
   <!-- Twitter:        https://twitter.com/fh5co -->
   <!-- Facebook:       https://www.facebook.com/fh5co -->
 
-  <!-- HUGO TEMPLATE PORTED BY SteveLane-->
+  <!-- HUGO TEMPLATE PORTED BY SteveLane -->
   <!-- Website:        https://interadata.io/ -->
 
+  <!-- LEKTOR THEME PORTED BY Daniel Althviz -->
+  <!-- Website:        https://dalthviz.github.io/ -->
+
+  <!-- LEKTOR THEME MAINTAINED AND EXPANED BY Spyder Dev Team -->
+  <!-- Website:        https://github.com/spyder-ide/lektor-icon -->
+
+  <!-- Copyright (c) 2016- Lektor-Icon Contributors -->
+
+  <!-- Original standalone HTML5 theme distributed under the terms of the -->
+  <!-- Creative Commons Attribution 3.0 license -->
+  <!-- https://creativecommons.org/licenses/by/3.0/ -->
+
+  <!-- Additions, modifications and porting released under the terms of the -->
+  <!-- MIT (Expat) License: https://opensource.org/licenses/MIT -->
+  <!-- See the LICENSE.txt file for more details -->
+  <!-- https://github.com/spyder-ide/lektor-icon/blob/master/LICENSE.txt -->
+
+  <!-- For information on the included third-party assets, see NOTICE.txt -->
+  <!-- https://github.com/spyder-ide/lektor-icon/blob/master/NOTICE.txt -->
+
   <title>Home — UAH AMS NWA Website</title>
+  
   <meta name="author" content="UAH AMS NWA Chapter" lang="en-US">
-  <meta name="copyright" content="&amp;copy; 2018 UAH AMS NWA" lang="en-US">
+  
+  
+  <meta name="copyright" content="&amp;copy; 2019 UAH AMS NWA" lang="en-US">
+  
+  
   <meta name="description" content="Official site of the UAH student chapter of the American Meteorological Society and the National Weather Association" lang="en-US">
+  
+  
   <meta name="keywords" content="meteorology, weather, atmospheric science, club, alabama, college, forecast" lang="en-US">
-  <meta name="theme-color" content="#ee1c24">
+  
+  
+  <meta name="theme-color" content="#0077c8">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" href="/static/images/favicon.png?h=8b7d3926" type="image/png">
+  <link rel="icon" href="/static/images/favicon.png?h=76e35d6e" type="image/png">
+  <style>
+    :root {
+      
+      --theme-accent-color: #0077c8;
+      
+      
+      --theme-pipe-color: #009fdf
+      
+    }
+  </style>
   
 <!-- Magnific Popup -->
-<link rel="stylesheet" href="/static/css/magnific-popup.css?h=bbd3487c" type="text/css">
+<link rel="stylesheet" href="/static/css/magnific-popup.css?h=82b0bb88" type="text/css">
+<style>
+  
+  
+  
+  
+  .hero-section {
+    background-image: url("/camg-classic-storm-rainbow@1920.jpg")
+  }
+  @media ((min-device-width: 1921px) or ((min-device-width: 1281px) and (min-resolution: 102dpi)) or ((min-device-width: 961px) and (min-resolution: 152dpi))) {
+    .hero-section {
+      background-image: url("/camg-classic-storm-rainbow@3840.jpg")
+    }
+  }
+  @media ((max-device-width: 768px) and (((max-resolution: 100dpi) and (max-device-height: 1400px)) or ((max-device-height: 1050px) and (max-resolution: 150dpi)) or (max-device-height: 700px))) {
+    .hero-section {
+      background-image: url("/camg-classic-storm-rainbow@1050.jpg")
+    }
+  }
+  
+  
+</style>
 
   <!-- Google fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiri" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata" type="text/css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="/static/css/style.css?h=a19e39a3" type="text/css">
+  <link rel="stylesheet" href="/static/css/style.css?h=ab02f53d" type="text/css">
   
-  <link rel="stylesheet" href="/static/css/styles.css?h=75feb793" type="text/css">
+  <!-- User Custom CSS -->
+  <link rel="stylesheet" href="/static/css/custom_styles.css?h=472a01d0" type="text/css">
   
 </head>
 
@@ -78,13 +150,15 @@ style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
         <div class="container">
           <div class="fh5co-menu-1">
             
+            
+            
             <div class='pull-left'>
               <ul class='dropdown menu' data-dropdown-menu>
                 <li id='menu-logo'>
                   <p></p>
                     <a href='/'>
                     
-                    <img alt="UAH AMS NWA Website Logo" src='/static/images/uah-ams-logo.png'>
+                    <img alt="Site Logo" src="/static/images/uah-ams-logo.png?h=1efb4aa2">
                     
                     
                     <span class="logo-text-container">
@@ -96,53 +170,65 @@ style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
                 </li>
               </ul>
             </div>
-            
 
-            
-
-<a href="#fh5co-home" data-nav-section="home">Home</a>
+            <div class="main-nav-container">
+              
 
 
 
-<a href="#fh5co-mission" data-nav-section="mission">About</a>
+
+
+<a href="#section-about" data-nav-section="about">About</a>
 
 
 
-<a href="#fh5co-services" data-nav-section="services">Activities</a>
+<a href="#section-activities" data-nav-section="activities">Activities</a>
 
 
 
-<a href="#fh5co-gallery" data-nav-section="gallery">Meetings</a>
+<a href="#section-meetings" data-nav-section="meetings">Meetings</a>
 
 
 
-<a href="#fh5co-team" data-nav-section="team">Exec Team</a>
+<a href="#section-team" data-nav-section="team">Team</a>
 
 
 
-<a href="#fh5co-download" data-nav-section="download">Learn More</a>
+<a href="#section-links" data-nav-section="links">Links</a>
 
 
 
-<a href="#fh5co-donate" data-nav-section="donate">Join Us</a>
+<a href="#section-join" data-nav-section="join">Join</a>
 
 
 
-            
-            
-            
-            
-            <a class="pull-right" href="/blog/" >Blog</a>
-            
-            
+
+
+
+              
+              <div class="side-nav-container">
+                
+
+                
+                
+                
+                
+                
+                <a class="pull-right" href="/blog/">Blog</a>
+                
+                
+              </div>
+              
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     
-<div id="fh5co-home" class="js-fullheight-home" data-section="home"
-style="background-image: url(/static/images/uah-ams-website-banner.jpg?h=0ef0164e);" data-stellar-background-ratio="0.5">
+
+
+<div id="section-home" class="js-fullheight-home hero-section" data-section="home" data-stellar-background-ratio="0.5">
   <div class="container">
     <div class="col-md-6">
       <div class="js-fullheight-home fh5co-copy">
@@ -157,20 +243,27 @@ style="background-image: url(/static/images/uah-ams-website-banner.jpg?h=0ef0164
       </div>
     </div>
   </div>
-</div>
+</div> <!-- END hero-section -->
 
 
 
 
 
-<div id="fh5co-mission" data-section="mission">
-  <div>
-    <div class="text-center fh5co-heading">
-      <h2>About the UAH AMS/NWA</h2>
-      
-    </div>
-    <div class="center">
-      <p>The UAH AMS/NWA is the University of Alabama in Huntsville chapter of the American Meteorological Society and the National Weather Association.
+
+
+
+
+<div id="section-about" data-section="about" class="content-section body-section dark-bg-section">
+  
+  
+  <div class="text-center fh5co-heading">
+    <h2>About the UAH AMS/NWA</h2>
+    
+  </div>
+  
+
+<div class="center">
+  <p>The UAH AMS/NWA is the University of Alabama in Huntsville chapter of the American Meteorological Society and the National Weather Association.
 We are a student-led organization aiming to enrich the academic experience of our members through education, professional development, outreach, and social events.</p>
 <p>UAH, initially an aerospace- and engineering-focused university founded during the Apollo lunar program, has grown into a dominant fixture of the eponymous "Rocket City" in north Alabama that it calls home, and is co-located with the fourth largest research park in the world.
 Students have the opportunity to conduct research with top scientists from NASA's Marshall Space Flight Center and NOAA/NWS Forecast Office, as both they are the department are located in the National Space Science and Technology Center on campus.
@@ -178,179 +271,298 @@ The department offers a B.S. in earth system science with 7 specialty tracks, an
 <p>Our chapter is home to a diverse variety of members from all around the world, and counts students specializing in areas ranging from meteorology, climate change and atmospheric chemistry to aerospace and civil engineering among its number.
 Whatever your interest in the atmosphere and whatever you're looking to get out of a student organization, the UAH AMS/NWA offers something for everyone, so check us out!</p>
 
-    </div>
-  </div>
-</div> <!-- END fh5co-download -->
+</div>
+
+
+</div> <!-- END content-section -->
 
 
 
 
-<div id="fh5co-services" data-section="services">
+
+
+<div id="section-activities" data-section="activities" class="services-section body-section light-bg-section">
   
-  <div class="container">
-    <div class="text-center fh5co-heading">
-      <h2>Activities</h2>
-      
-    </div>
-
+  
+  <div class="text-center fh5co-heading">
+    <h2>Activities</h2>
     
-    <div class="col-md-4">
-      <div class="service">
-        <div class="icon"><img alt="Outreach image" class="img-responsive center" height="100" width="100" src="outreach.jpg"/></div>
+  </div>
+  
+
+
+<div class="container">
+  
+  <div class="col-md-4 card-outer">
+    <div class="card service">
+      <div class="card-inner">
+        
+        
+        <div class="icon">
+          
+          <img alt="Outreach photo" src="/outreach@640.jpg" class="img-responsive center" srcset="/outreach@640.jpg 1x, /outreach@1280.jpg 2x">
+          
+        </div>
+        
         <h3>Outreach</h3>
         <p>We collaborate with local schools and community partners to inform and inspire the next generation through public events, presentations, tutoring and hands-on fun.</p>
 
       </div>
+      <div class="card-spacer"></div>
     </div>
-    
-    <div class="col-md-4">
-      <div class="service">
-        <div class="icon"><img alt="Career Development image" class="img-responsive center" height="100" width="100" src="career-development.jpg"/></div>
+  </div>
+  
+  <div class="col-md-4 card-outer">
+    <div class="card service">
+      <div class="card-inner">
+        
+        
+        <div class="icon">
+          
+          <img alt="Career Development photo" src="/career-development@640.jpg" class="img-responsive center" srcset="/career-development@640.jpg 1x, /career-development@1280.jpg 2x">
+          
+        </div>
+        
         <h3>Career Development</h3>
-        <p>We offer networking events, hands-on workshops, professional skills, and research and travel opportunities to help students achieve their dreams.</p>
+        <p>We offer networking events, hands-on workshops, professional skill-building, and research and travel opportunities to help students achieve their dreams.</p>
 
       </div>
+      <div class="card-spacer"></div>
     </div>
-    
-    <div class="col-md-4">
-      <div class="service">
-        <div class="icon"><img alt="Speakers image" class="img-responsive center" height="100" width="100" src="speakers.jpg"/></div>
+  </div>
+  
+  <div class="col-md-4 card-outer">
+    <div class="card service">
+      <div class="card-inner">
+        
+        
+        <div class="icon">
+          
+          <img alt="Speakers photo" src="/speakers@640.jpg" class="img-responsive center" srcset="/speakers@640.jpg 1x, /speakers@1280.jpg 2x">
+          
+        </div>
+        
         <h3>Speakers</h3>
         <p>We host talks featuring a broad spectrum of notable local individuals, from forecasters to broadcasters, and NASA researchers to private-sector meteorologists.</p>
 
       </div>
+      <div class="card-spacer"></div>
     </div>
-    
-    <div class="col-md-4">
-      <div class="service">
-        <div class="icon"><img alt="Conferences image" class="img-responsive center" height="100" width="100" src="conferences.jpg"/></div>
+  </div>
+  
+  <div class="col-md-4 card-outer">
+    <div class="card service">
+      <div class="card-inner">
+        
+        
+        <div class="icon">
+          
+          <img alt="Conferences photo" src="/conferences@640.jpg" class="img-responsive center" srcset="/conferences@640.jpg 1x, /conferences@1280.jpg 2x">
+          
+        </div>
+        
         <h3>Conferences</h3>
         <p>We fund and help coordinate travel to local, regional and national symposium, most notably the AMS annual meeting, and report on the chapter's yearly activities.</p>
 
       </div>
+      <div class="card-spacer"></div>
     </div>
-    
-    <div class="col-md-4">
-      <div class="service">
-        <div class="icon"><img alt="Rocket City Weatherfest image" class="img-responsive center" height="100" width="100" src="rcwf.jpg"/></div>
+  </div>
+  
+  <div class="col-md-4 card-outer">
+    <div class="card service">
+      <div class="card-inner">
+        
+        
+        <div class="icon">
+          
+          <img alt="Rocket City Weatherfest photo" src="/rcwf@640.jpg" class="img-responsive center" srcset="/rcwf@640.jpg 1x, /rcwf@1280.jpg 2x">
+          
+        </div>
+        
         <h3>Rocket City Weatherfest</h3>
         <p>We organize the annual RCWF event, which attracts thousands of families and hundreds of participants from many hours away to learn about weather, climate and safety.</p>
 
       </div>
+      <div class="card-spacer"></div>
     </div>
-    
-    <div class="col-md-4">
-      <div class="service">
-        <div class="icon"><img alt="Social Events image" class="img-responsive center" height="100" width="100" src="social-events.jpg"/></div>
+  </div>
+  
+  <div class="col-md-4 card-outer">
+    <div class="card service">
+      <div class="card-inner">
+        
+        
+        <div class="icon">
+          
+          <img alt="Social Events photo" src="/social-events@640.jpg" class="img-responsive center" srcset="/social-events@640.jpg 1x, /social-events@1280.jpg 2x">
+          
+        </div>
+        
         <h3>Social Events</h3>
         <p>We arrange a vareity of formal and informal gatherings for students and faculty to meet and network with their peers, share common interests, and build bonds with colleagues.</p>
 
       </div>
-    </div>
-    
-  </div>
-</div> <!-- END fh5co-services -->
-
-
-
-<div id="fh5co-gallery" data-section="gallery">
-  <div id="fh5co-gallery-header" class="row">
-    <div class="text-center fh5co-heading">
-      <h2>Meeting Information</h2>
-      <p>As of the 2018 fall semester, the UAH AMS/NWA typically meets once per month, on Fridays 12:00 PM - 1:00 PM in NSSTC Conference room 4078.</p>
-
+      <div class="card-spacer"></div>
     </div>
   </div>
   
-  <div class="gallery-title-spacer"></div>
-  
-  
-  
-  <a href="chapter-constitution.pdf" class="fh5co-item" style="background-image: url(chapter-constitution.png)">
-  
-    
-    <h3>Chapter Constitution</h3>
-    
-    <div class="fh5co-overlay"></div>
-    <div class="fh5co-copy">
-      <div class="fh5co-copy-inner">
-        <h2>Chapter Constitution</h2>
-        
-        <h3>The formal rules governing the organization</h3>
-        
-      </div>
-    </div>
-  </a>
-  
-  
-  <a href="presentation-archive.png" class="fh5co-item image-popup" style="background-image: url(presentation-archive.png)">
-  
-    
-    <h3>Presentation Archive</h3>
-    
-    <div class="fh5co-overlay"></div>
-    <div class="fh5co-copy">
-      <div class="fh5co-copy-inner">
-        <h2>Presentation Archive</h2>
-        
-        <h3>Full slides from meetings and talks</h3>
-        
-      </div>
-    </div>
-  </a>
-  
-  
-  <a href="meeting-minutes.png" class="fh5co-item image-popup" style="background-image: url(meeting-minutes.png)">
-  
-    
-    <h3>Meeting Minutes</h3>
-    
-    <div class="fh5co-overlay"></div>
-    <div class="fh5co-copy">
-      <div class="fh5co-copy-inner">
-        <h2>Meeting Minutes</h2>
-        
-        <h3>Notes summarizing key points from each formal gathering</h3>
-        
-      </div>
-    </div>
-  </a>
-  
-  
-  <a href="https://calendar.google.com/calendar/b/1?cid=dWFodW50c3ZpbGxlYW1zQGdtYWlsLmNvbQ" class="fh5co-item" style="background-image: url(event-calender.png)">
-  
-    
-    <h3>Event Calender</h3>
-    
-    <div class="fh5co-overlay"></div>
-    <div class="fh5co-copy">
-      <div class="fh5co-copy-inner">
-        <h2>Event Calender</h2>
-        
-        <h3>An interactive display of upcoming chapter activities</h3>
-        
-      </div>
-    </div>
-  </a>
-  
-</div> <!-- END fh5co-gallery -->
+</div>
+
+</div> <!-- END services-section -->
 
 
 
-<div id="fh5co-team" data-section="team">
-  <div class="container">
-    <div class="text-center fh5co-heading">
-      <h2>Leadership Team</h2>
-      <p>The UAH AMS/NWA's executive board</p>
 
+
+
+<div id="section-meetings" data-section="meetings" class="gallery-section body-section dark-bg-section">
+  
+  
+  <div class="text-center fh5co-heading">
+    <h2>Meeting Information</h2>
+    <p>As of the 2018 fall semester, the UAH AMS/NWA typically meets once per month, on Fridays 12:00 PM - 1:00 PM in NSSTC Conference room 4078.</p>
+
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="chapter-constitution.pdf" class="fh5co-item gallery-item-title" style="background-image: url(/chapter-constitution@1024.png)">
+  
+  <h3>Chapter Constitution</h3>
+  
+  <div class="fh5co-overlay"></div>
+  <div class="fh5co-copy">
+    <div class="fh5co-copy-inner">
+      <h2>Chapter Constitution</h2>
+      
+      <h3>The formal rules governing the organization</h3>
+      
     </div>
-    
-    <div class="col-md-4">
-      <div class="person">
-        <img alt="Doug Kahn photo" src="doug-kahn.jpg" class="img-responsive">
+  </div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://drive.google.com/drive/folders/1z39KFPa3QM3kpbjtwnEz1pKqkZDdA_Ly?usp=sharing" class="fh5co-item gallery-item-title" style="background-image: url(/presentation-archive@1024.png)">
+  
+  <h3>Presentation Archive</h3>
+  
+  <div class="fh5co-overlay"></div>
+  <div class="fh5co-copy">
+    <div class="fh5co-copy-inner">
+      <h2>Presentation Archive</h2>
+      
+      <h3>Full slides from meetings and talks</h3>
+      
+    </div>
+  </div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://drive.google.com/drive/folders/1hTmFAidv-9QUoZNd_83-NOeu4gP583gU?usp=sharing" class="fh5co-item gallery-item-title" style="background-image: url(/meeting-minutes@1024.png)">
+  
+  <h3>Meeting Minutes</h3>
+  
+  <div class="fh5co-overlay"></div>
+  <div class="fh5co-copy">
+    <div class="fh5co-copy-inner">
+      <h2>Meeting Minutes</h2>
+      
+      <h3>Notes summarizing key points from each formal gathering</h3>
+      
+    </div>
+  </div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://calendar.google.com/calendar/b/1?cid=dWFodW50c3ZpbGxlYW1zQGdtYWlsLmNvbQ" class="fh5co-item gallery-item-title" style="background-image: url(/event-calender@1024.png)">
+  
+  <h3>Event Calender</h3>
+  
+  <div class="fh5co-overlay"></div>
+  <div class="fh5co-copy">
+    <div class="fh5co-copy-inner">
+      <h2>Event Calender</h2>
+      
+      <h3>An interactive display of upcoming chapter activities</h3>
+      
+    </div>
+  </div>
+</a>
+
+
+</div> <!-- END gallery-section -->
+
+
+
+
+
+
+<div id="section-team" data-section="team" class="team-section body-section light-bg-section">
+  
+  
+  <div class="text-center fh5co-heading">
+    <h2>Leadership Team</h2>
+    <p>The UAH AMS/NWA's executive board</p>
+
+  </div>
+  
+
+<div class="container">
+  
+  <div class="col-md-4 card-outer">
+    <div class="card person">
+      <div class="card-inner">
+        
+        
+        
+        
+        <img alt="Doug Kahn photo" src="/doug-kahn@512.jpg" class="img-responsive" srcset="/doug-kahn@512.jpg 1x, /doug-kahn@1024.jpg 2x">
+        
         <h3>Doug Kahn</h3>
         <h4>President</h4>
-        <p></p>
+        
         <ul class="social">
           
           
@@ -360,14 +572,22 @@ Whatever your interest in the atmosphere and whatever you're looking to get out 
           
         </ul>
       </div>
+      <div class="card-spacer"></div>
     </div>
-    
-    <div class="col-md-4">
-      <div class="person">
-        <img alt="Shane Pendleton photo" src="shane-pendleton.jpg" class="img-responsive">
+  </div>
+  
+  <div class="col-md-4 card-outer">
+    <div class="card person">
+      <div class="card-inner">
+        
+        
+        
+        
+        <img alt="Shane Pendleton photo" src="/shane-pendleton@512.jpg" class="img-responsive" srcset="/shane-pendleton@512.jpg 1x, /shane-pendleton@1024.jpg 2x">
+        
         <h3>Shane Pendleton</h3>
         <h4>Vice President</h4>
-        <p></p>
+        
         <ul class="social">
           
           
@@ -377,14 +597,20 @@ Whatever your interest in the atmosphere and whatever you're looking to get out 
           
         </ul>
       </div>
+      <div class="card-spacer"></div>
     </div>
-    
-    <div class="col-md-4">
-      <div class="person">
-        <img alt="Emily Mayes photo" src="placeholder.png" class="img-responsive">
+  </div>
+  
+  <div class="col-md-4 card-outer">
+    <div class="card person">
+      <div class="card-inner">
+        
+        
+        <img alt="Placeholder person" src="/static/images/placeholder_person.png?h=114ad3d3" class="img-responsive">
+        
         <h3>Emily Mayes</h3>
         <h4>Treasurer</h4>
-        <p></p>
+        
         <ul class="social">
           
           
@@ -394,14 +620,22 @@ Whatever your interest in the atmosphere and whatever you're looking to get out 
           
         </ul>
       </div>
+      <div class="card-spacer"></div>
     </div>
-    
-    <div class="col-md-4">
-      <div class="person">
-        <img alt="Christine Evans photo" src="christine-evans.jpg" class="img-responsive">
+  </div>
+  
+  <div class="col-md-4 card-outer">
+    <div class="card person">
+      <div class="card-inner">
+        
+        
+        
+        
+        <img alt="Christine Evans photo" src="/christine-evans@512.jpg" class="img-responsive" srcset="/christine-evans@512.jpg 1x, /christine-evans@1024.jpg 2x">
+        
         <h3>Christine Evans</h3>
         <h4>Secretary</h4>
-        <p></p>
+        
         <ul class="social">
           
           
@@ -411,14 +645,22 @@ Whatever your interest in the atmosphere and whatever you're looking to get out 
           
         </ul>
       </div>
+      <div class="card-spacer"></div>
     </div>
-    
-    <div class="col-md-4">
-      <div class="person">
-        <img alt="C.A.M. Gerlach photo" src="cam-gerlach.png" class="img-responsive">
+  </div>
+  
+  <div class="col-md-4 card-outer">
+    <div class="card person">
+      <div class="card-inner">
+        
+        
+        
+        
+        <img alt="C.A.M. Gerlach photo" src="/cam-gerlach@512.png" class="img-responsive" srcset="/cam-gerlach@512.png 1x, /cam-gerlach@1024.png 2x">
+        
         <h3>C.A.M. Gerlach</h3>
         <h4>Webmaster</h4>
-        <p></p>
+        
         <ul class="social">
           
           
@@ -430,14 +672,20 @@ Whatever your interest in the atmosphere and whatever you're looking to get out 
           
         </ul>
       </div>
+      <div class="card-spacer"></div>
     </div>
-    
-    <div class="col-md-4">
-      <div class="person">
-        <img alt="Jarod Sparacio photo" src="placeholder.png" class="img-responsive">
+  </div>
+  
+  <div class="col-md-4 card-outer">
+    <div class="card person">
+      <div class="card-inner">
+        
+        
+        <img alt="Placeholder person" src="/static/images/placeholder_person.png?h=114ad3d3" class="img-responsive">
+        
         <h3>Jarod Sparacio</h3>
         <h4>Undergraduate Rep</h4>
-        <p></p>
+        
         <ul class="social">
           
           
@@ -447,56 +695,76 @@ Whatever your interest in the atmosphere and whatever you're looking to get out 
           
         </ul>
       </div>
+      <div class="card-spacer"></div>
     </div>
-    
   </div>
-</div> <!-- END fh5co-team -->
+  
+</div>
+
+</div> <!-- END team-section -->
 
 
 
 
-<div id="fh5co-download" data-section="download">
-  <div>
-    <div class="text-center fh5co-heading">
-      <h2>Learn More</h2>
-      <p>Useful links for students, staff and the local community</p>
 
-    </div>
-    <div class="center">
-      <p><a href="https://www.uah.edu/science/departments/atmospheric-science">UAH ATS Department</a> <span class="pipe-colored">|</span> For the Atmospheric Science program at UAH.</p>
-<p><a href="https://www.uah.edu/science/departments/atmospheric-science">NSSTC Site</a> <span class="pipe-colored">|</span> For general information and links related to the National Space Science and Technology Center.</p>
-<p><a href="https://www.nsstc.uah.edu/mips/">MIPS Website</a> <span class="pipe-colored">|</span> Information and live data from various UAH surface and remote-sensing platforms.</p>
+
+<div id="section-links" data-section="links" class="content-section body-section dark-bg-section">
+  
+  
+  <div class="text-center fh5co-heading">
+    <h2>Learn More</h2>
+    <p>Useful links for students, staff and the local community</p>
+
+  </div>
+  
+
+<div class="center">
+  <p><a href="https://www.uah.edu/science/departments/atmospheric-science">UAH ATS Department</a> <span class="pipe-colored">|</span> For the Atmospheric Science program at UAH.</p>
+<p><a href="https://www.nsstc.uah.edu/">NSSTC Site</a> <span class="pipe-colored">|</span> For general information and links related to the National Space Science and Technology Center.</p>
+<p><a href="https://www.nsstc.uah.edu/mips/">UAH MIPS Website</a> <span class="pipe-colored">|</span> Information and live data from various UAH surface and remote-sensing platforms.</p>
 <p><a href="https://www.weather.gov/hun/embrief">Huntsville NWS Briefing Page</a> <span class="pipe-colored">|</span> For an array of general and severe weather information in the Huntsville area.</p>
 <p><a href="https://www.ametsoc.org/">Main AMS Site</a> <span class="pipe-colored">|</span> The national American Meteorological Society organization.</p>
 <p><a href="https://nwas.org/">Main NWA Site</a> <span class="pipe-colored">|</span> The National Weather Association page.</p>
 
-    </div>
-  </div>
-</div> <!-- END fh5co-download -->
-
-
-
-
-<div id="fh5co-donate" data-section="donate">
-  <div class="container">
-    <div class="text-center fh5co-heading">
-      <h2>Join Us</h2>
-      <p>Join the UAH AMS NWA! Annual dues are only $10, which help pay for food at meetings and the fun activities we put on. Subscribe to our Google Group for announcements of upcoming meetings, exciting events, and career opportunities, so hope to see you there!</p>
-
-    </div>
-    
-  </div>
 </div>
 
 
+</div> <!-- END content-section -->
 
-    
+
+
+
+
+
+<div id="section-join" data-section="join" class="content-section body-section light-bg-section">
+  
+  
+  <div class="text-center fh5co-heading">
+    <h2>Join Us</h2>
+    <p>Join the UAH AMS NWA! Annual dues are only $10, which help pay for food at meetings and the fun activities we put on. Subscribe to our Google Group for announcements of upcoming meetings, exciting events, and career opportunities, so hope to see you there!</p>
+
+  </div>
+  
+
+
+<div class="row">
+  
+  <a href="https://groups.google.com/forum/#!forum/uah-ams"  class="content-button text-button" target="_blank" rel="noopener noreferrer">Join our Email List</a>
+  
+</div>
+
+</div> <!-- END content-section -->
+
+
+
+
+
     <div id="fh5co-footer">
       <div class="container">
         
-        <div class="row">
+        <div class="row footer-connect-line">
           <div class="text-center">
-            <p><small>
+            <p>
               Connect with us on:
               
               
@@ -517,15 +785,15 @@ Whatever your interest in the atmosphere and whatever you're looking to get out 
               
               <a href="https://github.com/uah-ams/"> Github </a>
               
-            </small></p>
+            </p>
           </div>
         </div>
         
-        <div class="row">
+        <div class="row footer-copyright">
           <div class="text-center">
             <p>
               
-              &copy; 2018 UAH AMS NWA
+              &copy; 2019 UAH AMS NWA
               
               
               <span class="pipe-colored"> | </span>
@@ -537,13 +805,12 @@ Whatever your interest in the atmosphere and whatever you're looking to get out 
               <br>
               
               <a href="https://freehtml5.co/icon-free-website-template-using-bootstrap/" target="_blank" rel="noopener noreferrer">Template</a> designed by <a href="https://freehtml5.co/" target="_blank" rel="noopener noreferrer">FreeHTML5.co</a>  <span class="pipe-colored"> | </span> Licensed <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC-BY 3.0</a>
-              <br>Hugo port by <a href="https://github.com/SteveLane/" target="_blank" rel="noopener noreferrer">SteveLane</a> <span class="pipe-colored">|</span> Lektor port by <a href="https://github.com/dalthviz/" target="_blank" rel="noopener noreferrer">Dalthviz</a> and <a href="https://www.spyder-ide.org/" target="_blank" rel="noopener noreferrer">Spyder</a>
+              <br><a href="https://github.com/SteveLane/hugo-icon" target="_blank" rel="noopener noreferrer">Hugo port</a> by <a href="https://github.com/SteveLane/" target="_blank" rel="noopener noreferrer">SteveLane</a> <span class="pipe-colored">|</span> <a href="https://github.com/spyder-ide/lektor-icon" target="_blank" rel="noopener noreferrer">Lektor port</a> by <a href="https://github.com/dalthviz/" target="_blank" rel="noopener noreferrer">Dalthviz</a> and <a href="https://www.spyder-ide.org/" target="_blank" rel="noopener noreferrer">Spyder</a>
             </p>
           </div>
         </div>
       </div>
     </div>
-    
   </div>
 </div>
 
@@ -552,7 +819,7 @@ Whatever your interest in the atmosphere and whatever you're looking to get out 
 <!-- Waypoints -->
 <script src="/static/js/jquery.waypoints.min.js?h=a2b72d43" type="application/javascript" charset="UTF-8"></script>
 <!-- Main JS -->
-<script src="/static/js/main.js?h=f03b056f" type="application/javascript" charset="UTF-8"></script>
+<script src="/static/js/main.js?h=6653e38d" type="application/javascript" charset="UTF-8"></script>
 
 <!-- jQuery Easing -->
 <script src="/static/js/jquery.easing.min.js?h=ce3bb198" type="application/javascript" charset="UTF-8"></script>
@@ -562,7 +829,7 @@ Whatever your interest in the atmosphere and whatever you're looking to get out 
 <script src="/static/js/jquery.magnific-popup.min.js?h=13d72330" type="application/javascript" charset="UTF-8"></script>
 <script src="/static/js/magnific-popup-options.js?h=79138731" type="application/javascript" charset="UTF-8"></script>
 <!-- Main JS -->
-<script src="/static/js/main-singlelayout.js?h=bd670af6" type="application/javascript" charset="UTF-8"></script>
+<script src="/static/js/main-singlelayout.js?h=ce8a7ed8" type="application/javascript" charset="UTF-8"></script>
 
 <!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.js" type="application/javascript" charset="UTF-8"></script> -->
 </body>
