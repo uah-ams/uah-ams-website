@@ -214,32 +214,9 @@ nav_label: Team
 members:
 
 ##### member #####
-name: Doug Kahn
------
-position: President
------
-description:
------
-image: doug-kahn.jpg
------
-website:
------
-facebook:
------
-twitter:
------
-instagram:
------
-github:
------
-linkedin:
------
-
-
-##### member #####
 name: Shane Pendleton
 -----
-position: Vice President
+position: President
 -----
 description:
 -----
@@ -256,6 +233,29 @@ instagram:
 github:
 -----
 linkedin:
+-----
+
+
+##### member #####
+name: Allynne Thackston
+-----
+position: Vice President
+-----
+description:
+-----
+image:
+-----
+website:
+-----
+facebook:
+-----
+twitter: http://twitter.com/WxAlly
+-----
+instagram:
+-----
+github:
+-----
+linkedin: http://www.linkedin.com/in/allynne-thackston-68491b50/
 -----
 
 
@@ -312,7 +312,7 @@ description:
 -----
 image: cam-gerlach.png
 -----
-website:
+website: https://www.spyder-ide.org/
 -----
 facebook:
 -----
@@ -327,7 +327,7 @@ linkedin:
 
 
 ##### member #####
-name: Jarod Sparacio
+name: Temporarily Vacant
 -----
 position: Undergraduate Rep
 -----
