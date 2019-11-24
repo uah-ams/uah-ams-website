@@ -3,6 +3,7 @@ name = UAH AMS NWA Website
 url_style = absolute
 url = https://www.uah-ams.club
 themes = lektor-icon
+included_assets = .nojekyll
 
 [servers.ghpages]
 target = ghpages+https://uah-ams/uah-ams-website?cname=www.uah-ams.club
