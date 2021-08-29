@@ -2,14 +2,32 @@
 
 /* Site custom styles */
 
-.service .icon img {
+/* Make the what we do photos larger */
+.service .icon .img-responsive {
   width: 90%;
 }
 
+/* Position and style the hero text more appropriately */
 .hero-section .container .col-md-6 {
   float: right;
 }
 
+.hero-section .fh5co-copy-inner {
+  vertical-align: bottom;
+}
+
+.hero-section .js-fullheight-home h1,
+.hero-section .js-fullheight-home h2 {
+  margin-left: 20px;
+	text-shadow: 0px 0px 20px #000000;
+}
+
+.hero-section .js-fullheight-home h2 {
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+
+/* Make the 404 page text more visible */
 #error-page .page-content p {
   color: #000000;
 }

@@ -1,4 +1,4 @@
 [submodule "themes/lektor-icon"]
 	path = themes/lektor-icon
 	url = https://github.com/uah-ams/lektor-icon.git
-	branch = modularity-fixes
+	branch = master
