@@ -3,11 +3,13 @@
 /* Site custom styles */
 
 /* Make the what we do photos larger */
+
 .service .icon .img-responsive {
   width: 90%;
 }
 
 /* Position and style the hero text more appropriately */
+
 .hero-section .container .col-md-6 {
   float: right;
 }
@@ -19,15 +21,16 @@
 .hero-section .js-fullheight-home h1,
 .hero-section .js-fullheight-home h2 {
   margin-left: 20px;
-	text-shadow: 0px 0px 20px #000000;
+  text-shadow: 0 0 20px #000;
 }
 
 .hero-section .js-fullheight-home h2 {
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 100px;
 }
 
 /* Make the 404 page text more visible */
+
 #error-page .page-content p {
-  color: #000000;
+  color: #000;
 }

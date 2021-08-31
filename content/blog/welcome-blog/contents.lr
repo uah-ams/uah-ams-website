@@ -15,7 +15,7 @@ body:
 We'd like to welcome all of you to our brand new website, after far too long neglecting the [old one](https://www.nsstc.uah.edu/uahams/).
 This new site conforms to modern web standards and exhibits the proper layout on popular browsers, and is vastly easier to maintain and update.
 Furthermore, the site is build using the latest web frameworks, enabling responsive design that dynamically adapts to its window size, and automatically adopts a mobile-friendly layout for easy browsing on the go.
-All the content is brand-new or throughly updated, and it features a number of new elements with more to come!
+All the content is brand-new or thoroughly updated, and it features a number of new elements with more to come!
 
 This [website's repository](https://github.com/uah-ams/uah-ams-website) is now part of the new [UAH AMS Github org](https://github.com/uah-ams), and development is hosted there.
 Its based around the [Lektor](https://www.getlektor.com/) Python static site generator, which is set up to automatically build and deploy the site on the [Travis](https://travis-ci.org/) continuous integration servers whenever new changes are merged, which is then served via [Github Pages](https://pages.github.com/) to a custom domain.
