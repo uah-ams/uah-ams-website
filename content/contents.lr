@@ -12,21 +12,23 @@ Welcome to the UAH student chapter of<br>the American Meteorological Society and
 ---
 hero_image: camg-classic-storm-rainbow.jpg
 ---
+hero_no_downscale: true
+---
 starting_block_bg: dark
 ---
-
-
-
 main_content:
+
 
 #### content ####
 section_id: about
+----
+nav_label: About
 ----
 title: About the UAH AMS/NWA
 ----
 description:
 ----
-nav_label: About
+full_width: false
 ----
 content:
 
@@ -40,96 +42,111 @@ The department offers a B.S. in earth system science with 7 specialty tracks, an
 Our chapter is home to a diverse variety of members from all around the world, and counts students specializing in areas ranging from meteorology, climate change and atmospheric chemistry to aerospace and civil engineering among its number.
 Whatever your interest in the atmosphere and whatever you're looking to get out of a student organization, the UAH AMS/NWA offers something for everyone, so check us out!
 ----
+button_type:
+----
+button_content:
+----
+button_link:
+----
+button_position:
+----
+button_newtab:
+----
 
 
 
 #### services ####
 section_id: activities
 ----
+nav_label: Activities
+----
 title: Activities
 ----
 description:
 ----
-nav_label: Activities
-----
 video_url:
+----
+link_whole_card: true
+----
+transparent_bg: false
 ----
 services:
 
 ##### service #####
 title: Outreach
 -----
-
 description:
 
 We collaborate with local schools and community partners to inform and inspire the next generation through public events, presentations, tutoring and hands-on fun.
 -----
-
 icon: outreach.jpg
+-----
+url:
 -----
 
 
 ##### service #####
 title: Career Development
 -----
-
 description:
 
 We offer networking events, hands-on workshops, professional skill-building, and research and travel opportunities to help students achieve their dreams.
 -----
-
 icon: career-development.jpg
+-----
+url:
 -----
 
 
 ##### service #####
 title: Speakers
 -----
-
 description:
 
 We host talks featuring a broad spectrum of notable local individuals, from forecasters to broadcasters, and NASA researchers to private-sector meteorologists.
 -----
-
 icon: speakers.jpg
 -----
+url:
+-----
+
 
 ##### service #####
 title: Conferences
 -----
-
 description:
 
 We fund and help coordinate travel to local, regional and national symposium, most notably the AMS annual meeting, and report on the chapter's yearly activities.
 -----
-
 icon: conferences.jpg
+-----
+url:
 -----
 
 
 ##### service #####
 title: Rocket City Weatherfest
 -----
-
 description:
 
 We organize the annual RCWF event, which attracts thousands of families and hundreds of participants from many hours away to learn about weather, climate and safety.
 -----
-
 icon: rcwf.jpg
+-----
+url:
 -----
 
 
 ##### service #####
 title: Social Events
 -----
-
 description:
 
 We arrange a vareity of formal and informal gatherings for students and faculty to meet and network with their peers, share common interests, and build bonds with colleagues.
 -----
-
 icon: social-events.jpg
+-----
+url:
 -----
 ----
 
@@ -138,11 +155,11 @@ icon: social-events.jpg
 #### gallery ####
 section_id: meetings
 ----
+nav_label: Meetings
+----
 title: Meeting Information
 ----
 description: As of the 2018 fall semester, the UAH AMS/NWA typically meets once per month, on Fridays 12:00 PM - 1:00 PM in NSSTC Conference room 4078.
-----
-nav_label: Meetings
 ----
 show_titles: true
 ----
@@ -188,7 +205,7 @@ direct_link: true
 
 
 ##### gallery_item #####
-title: Event Calender
+title: Event Calendar
 -----
 subtitle: An interactive display of upcoming chapter activities
 -----
@@ -205,11 +222,15 @@ direct_link: true
 #### team ####
 section_id: team
 ----
+nav_label: Team
+----
 title: Leadership Team
 ----
 description: The UAH AMS/NWA's executive board
 ----
-nav_label: Team
+link_whole_card: false
+----
+transparent_bg: true
 ----
 members:
 
@@ -221,6 +242,8 @@ position: President
 description:
 -----
 image: shane-pendleton.jpg
+-----
+url:
 -----
 website:
 -----
@@ -245,6 +268,8 @@ description:
 -----
 image: allynne-thackston.jpg
 -----
+url:
+-----
 website:
 -----
 facebook:
@@ -265,6 +290,10 @@ name: Emily Mayes
 position: Treasurer
 -----
 description:
+-----
+image:
+-----
+url:
 -----
 website:
 -----
@@ -289,6 +318,8 @@ description:
 -----
 image: christine-evans.jpg
 -----
+url:
+-----
 website:
 -----
 facebook:
@@ -312,7 +343,9 @@ description:
 -----
 image: cam-gerlach.png
 -----
-website: https://www.spyder-ide.org/
+url:
+-----
+website: http://Gerlach.CAM
 -----
 facebook:
 -----
@@ -335,6 +368,8 @@ description:
 -----
 image: shelby-bagwell.jpg
 -----
+url:
+-----
 website:
 -----
 facebook:
@@ -354,11 +389,13 @@ linkedin:
 #### content ####
 section_id: links
 ----
+nav_label: Links
+----
 title: Learn More
 ----
 description: Useful links for students, staff and the local community
 ----
-nav_label: Links
+full_width: false
 ----
 content:
 
@@ -374,22 +411,42 @@ content:
 
 [Main NWA Site](https://nwas.org/) <span class="pipe-colored">|</span> The National Weather Association page.
 ----
+button_type:
+----
+button_content:
+----
+button_link:
+----
+button_position:
+----
+button_newtab:
+----
 
 
 
 #### content ####
 section_id: join
 ----
+nav_label: Join
+----
 title: Join Us
 ----
-description: Join the UAH AMS NWA! Annual dues are only $10, which help pay for food at meetings and the fun activities we put on. Subscribe to our Google Group for announcements of upcoming meetings, exciting events, and career opportunities, so hope to see you there!
+description:
+
+Join the UAH AMS NWA!
+Annual dues are only $10, which help pay for food at meetings and the fun activities we put on.
+Subscribe to our Google Group for announcements of upcoming meetings, exciting events, and career opportunities, so hope to see you there!
 ----
-nav_label: Join
+full_width: false
 ----
 button_type: text
 ----
 button_content: Join our Email List
 ----
 button_link: https://groups.google.com/forum/#!forum/uah-ams
+----
+button_position: bottom
+----
+button_newtab: true
 ----
 ---
