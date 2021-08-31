@@ -1,9 +1,7 @@
 # UAH AMS Website
 
-[![Travis CI Build Status](https://travis-ci.org/uah-ams/uah-ams-website.svg?branch=master)](https://travis-ci.org/uah-ams/uah-ams-website)
-
 This repo is the source for the University of Alabama Huntsville's American Meteorological Society chapter [website](https://www.uah-ams.club/).
-It is built using [Lektor](https://www.getlektor.com/), deployed via [Travis CI](https://travis-ci.org/uah-ams/uah-ams-website) and served by [Github Pages](https://pages.github.com/), hosted on a custom domain.
+It is built using [Lektor](https://www.getlektor.com/), deployed via [GitHub Actions](https://github.com/features/actions) and served by [GitHub Pages](https://pages.github.com/), hosted on a custom domain.
 It is built upon the [Lektor-Icon theme](https://spyder-ide.github.io/lektor-icon/), whose [documentation](https://github.com/spyder-ide/lektor-icon) should be consulted for details on what the various options do.
 
 This repo as a whole (aside from indicated photographs) is licensed [MIT (Expat)](https://opensource.org/licenses/MIT), content (including prose text and graphics) is additionally dual-licensed under [CC-BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/), and some photographs are owned by C.A.M. Gerlach and licensed under [CC-BY-SA-NC 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
