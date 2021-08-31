@@ -131,6 +131,14 @@ repos:
     name: Lint Markdown
     args: [--fix]
 
+# Check Python dependencies
+- repo: https://github.com/Lucas-C/pre-commit-hooks-safety
+  rev: v1.2.1
+  hooks:
+  - id: python-safety-dependencies-check
+    name: Run Safety check on dependencies
+    files: 'requirements.txt'
+
 # Check TOML and XML
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v4.0.1
