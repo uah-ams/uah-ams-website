@@ -1,6 +1,6 @@
 # UAH AMS Website
 
-This repo is the source for the University of Alabama Huntsville's American Meteorological Society chapter [website](https://www.uah-ams.club/).
+This repo is the source for the University of Alabama Huntsville's American Meteorological Society chapter website.
 It is built using [Lektor](https://www.getlektor.com/), deployed via [GitHub Actions](https://github.com/features/actions) and served by [GitHub Pages](https://pages.github.com/), hosted on a custom domain.
 It is built upon the [Lektor-Icon theme](https://spyder-ide.github.io/lektor-icon/), whose [documentation](https://github.com/spyder-ide/lektor-icon) should be consulted for details on what the various options do.
 
