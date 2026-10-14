@@ -9,3 +9,6 @@ You can usually expect to hear back within 48 hours, at which point we'll inform
 Once its patched, we'll send a followup email letting you know, and are happy to update you on its status should you further inquire.
 While this is a volunteer project and we don't have financial compensation to offer, we can certainly publicly thank you for your help if you would like, on the project and on the site.
 Thanks!
+
+1
+2
