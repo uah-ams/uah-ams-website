@@ -5,6 +5,7 @@ on:  # yamllint disable-line rule:truthy
     branches: [master, main, '*.*', 'staging*']
   pull_request:
     branches: [master, main, '*.*', 'staging*']
+  merge_group: {}
 
 jobs:
   semgrep:
@@ -12,7 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # Checkout project source
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v5
+
+    - name: Echo SHA
+      if: ${{ github.event_name == 'merge_group' }}
+      env:
+        GROUP_BASE: ${{ github.event.merge_group.base_sha }}
+      run: "echo $GROUP_BASE"
 
     # Scan code using project's configuration on https://semgrep.dev/manage
     - uses: returntocorp/semgrep-action@v1
