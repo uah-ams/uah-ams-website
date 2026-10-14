@@ -19,7 +19,8 @@ jobs:
       if: ${{ github.event_name == 'merge_group' }}
       env:
         GROUP_BASE: ${{ github.event.merge_group.base_sha }}
-      run: "echo $GROUP_BASE"
+        GROUP_BASE_REF: ${{ github.event.merge_group.base_ref }}
+      run: "echo $GROUP_BASE && echo $GROUP_BASE_REF"
 
     # Scan code using project's configuration on https://semgrep.dev/manage
     - uses: returntocorp/semgrep-action@v1
